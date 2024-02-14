@@ -9,13 +9,16 @@ const root = ReactDOM.createRoot(
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDjR_ivQkdToY7uyeVWgyXld1Awl1jcSsQ",
-  authDomain: "ifcjs-frontend-exercise.firebaseapp.com",
-  projectId: "ifcjs-frontend-exercise",
-  storageBucket: "ifcjs-frontend-exercise.appspot.com",
-  messagingSenderId: "490019428851",
-  appId: "1:490019428851:web:9b912649cc47d7929c9a86",
+  apiKey: "AIzaSyDqtAYa7ANPCY9t68zdmGq2tcfolwcIB4I",
+  authDomain: "ifc-frontend-app.firebaseapp.com",
+  projectId: "ifc-frontend-app",
+  storageBucket: "ifc-frontend-app.appspot.com",
+  messagingSenderId: "968796046330",
+  appId: "1:968796046330:web:16a750e0de39eeb42b5a43"
 };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
 // Initialize Firebase
 initializeApp(firebaseConfig);
